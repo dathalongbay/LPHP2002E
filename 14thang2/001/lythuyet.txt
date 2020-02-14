@@ -30,3 +30,14 @@ có 1 số thẻ ngoại lệ là không có thẻ đóng hay nói cách khác t
 UTF-8
 ví dụ : hiển thị có dấu tiếng việt hay tiếng nhật, thái lan
 
+tên thẻ html nên viết thường
+<html></html>
+chứ không viết <HTML></HTML>
+
+*** chú ý là với các thẻ có thẻ đóng
+thì phải gõ đầy đủ cả thẻ mở và thẻ đóng
+<head><head> => lỗi
+<head> => lỗi
+
+
+
