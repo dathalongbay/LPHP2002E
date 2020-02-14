@@ -1,0 +1,32 @@
+<!DOCTYPE html> được sử dụng để khai báo kiểu của trang html
+Phiên bản mới nhất của html là html5
+
+html là ngôn ngữ được tạo ra bởi các thẻ html
+<tên_của_thẻ_html> Nội dung của thẻ html </tên_của_thẻ_html>
+
+ví dụ :
+<html> Nội dung của thẻ html </html>
+<head> Nội dung của thẻ head </head>
+<body> Nội dung của thẻ body </body>
+<title> Nội dung của thẻ tiêu đề </title>
+
+Thẻ mở : <html>
+Thẻ đóng : </html>
+
+Thẻ mở : <head>
+Thẻ đóng : </head>
+
+Thẻ mở : <body>
+Thẻ đóng : </body>
+
+Chú ý là các thẻ html lồng nhau
+<html> chứa thẻ <head>
+thẻ <head> là chứa thẻ <title>
+
+thẻ <meta charset="UTF-8"> không có thẻ đóng
+95% các thẻ html có thẻ mở và có thẻ đóng
+có 1 số thẻ ngoại lệ là không có thẻ đóng hay nói cách khác thẻ mở và thẻ đóng là 1 thẻ
+<meta charset="UTF-8"> được sử dụng để hiển thị đúng nội dung cho kiểu văn bản
+UTF-8
+ví dụ : hiển thị có dấu tiếng việt hay tiếng nhật, thái lan
+
