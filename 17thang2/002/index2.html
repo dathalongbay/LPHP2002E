@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        /* RESET CSS */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #box1 {
+            width: 100px;
+            height: 100px;
+            background-color: #ffcc74;
+
+            /* margin */
+            margin-top: 100px;
+            margin-left: 50px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+
+        #box2 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+
+            /* rút gọn */
+            margin: 100px 20px 10px 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <pre>
+        các cách viết rút gọn của thuộc tính margin
+
+        TH1 : 4 giá trị ở margin 4 cạnh khác nhau
+        margin: A B C D;
+        A là giá trị margin top
+        B là giá trị margin right
+        C là giá trị margin bottom
+        D là giá trị margin left
+
+        Quy tắc kim đồng hồ
+        12h => 3h => 6h => 9h
+        top => right => bottom => left
+
+    </pre>
+
+    <div id="box1">
+        box 1
+    </div>
+
+    <div id="box2">
+        box 2
+    </div>
+
+</body>
+</html>
